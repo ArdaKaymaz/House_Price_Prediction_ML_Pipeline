@@ -8,7 +8,7 @@ from xgboost import XGBRegressor
 from lightgbm import LGBMRegressor
 from sklearn.svm import SVR
 from sklearn.metrics import mean_squared_error
-from house_prediction_M import variable_evaluations as ve
+from house_prediction import variable_evaluations as ve
 
 
 def evaluate_models(X, y, plot_imp=False, save=False, num=20, random_state=7):
