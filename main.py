@@ -258,8 +258,7 @@ cv_results = np.mean(np.sqrt(-cross_val_score(lgbm_final, X, y, cv=5, scoring="n
 
 print(f"RMSE = {cv_results}")
 
-# RMSE (without scaling) = 19808.25389624279 # Lowest
-# RMSE (with scaling) = 0.24732030678169634
+# RMSE = 19808.25389624279
 
 
 import joblib
