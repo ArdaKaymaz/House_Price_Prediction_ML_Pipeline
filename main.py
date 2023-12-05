@@ -70,7 +70,7 @@ RMSE: 0.3447 (LightGBM)       RMSE: 0.0401 (LightGBM)               RMSE: 0.3643
 RMSE: 0.3447 (0.01 0.99 Outlier (LightGBM))
 RMSE: 0.3349 (0.05 0.95 Outlier (LightGBM))
 RMSE: 0.2491 (0.25 0.75 Outlier (LightGBM))
-RMSE: 20875.612053444867 (0.25 0.75 Outlier (LightGBM))
+RMSE: 20875.612053444867 (0.25 0.75 Outlier, without scaling (LightGBM))
 """
 
 ### After Feature Extraction ###
@@ -214,7 +214,6 @@ All features
 # y.mean()
 # y.std()
 
-# Modelling without scaling results better, which means lower RMSE/y.mean value.
 # LightGBM is faster also has more accurate results than most of the others.
 
 
