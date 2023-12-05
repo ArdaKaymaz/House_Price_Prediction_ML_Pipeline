@@ -67,9 +67,10 @@ RMSE: 0.3616 (RF)             RMSE: 0.042 (RF)                      RMSE: 0.3837
 RMSE: 0.3156 (GBM)            RMSE: 0.0367 (GBM)                    RMSE: 0.3355 (GBM) 
 RMSE: 0.3389 (XGBoost)        RMSE: 0.0396 (XGBoost)                RMSE: 0.3584 (XGBoost)
 RMSE: 0.3447 (LightGBM)       RMSE: 0.0401 (LightGBM)               RMSE: 0.3643 (LightGBM)
-RMSE: 0.3447 0.01 0.99 Outlier (LightGBM)
-RMSE: 0.3349 0.05 0.95 Outlier (LightGBM)
-RMSE: 0.2491 0.25 0.75 Outlier (LightGBM)
+RMSE: 0.3447 (0.01 0.99 Outlier (LightGBM))
+RMSE: 0.3349 (0.05 0.95 Outlier (LightGBM))
+RMSE: 0.2491 (0.25 0.75 Outlier (LightGBM))
+RMSE: 20875.612053444867 (0.25 0.75 Outlier (LightGBM))
 """
 
 ### After Feature Extraction ###
