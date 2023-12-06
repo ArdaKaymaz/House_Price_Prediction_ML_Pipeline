@@ -1,7 +1,7 @@
-from house_prediction_M import data_reading_and_exploring as de
-from house_prediction_M import feature_engineering as fe
-from house_prediction_M import model as md
-from house_prediction_M import variable_evaluations as ve
+from house_prediction import data_reading_and_exploring as de
+from house_prediction import feature_engineering as fe
+from house_prediction import model as md
+from house_prediction import variable_evaluations as ve
 import numpy as np
 import pandas as pd
 
